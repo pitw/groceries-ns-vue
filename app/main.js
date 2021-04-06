@@ -1,4 +1,7 @@
 import Vue from 'nativescript-vue';
+import Theme from "nativescript-theme-core";
+
+Theme.setMode(Theme.Light);
 
 import BackendService from './services/BackendService'
 import Login from './components/Login/Login'
